@@ -1,2 +1,2 @@
-# tutorial
-This repository is for tutoring purpose.
+# test-chatbot
+A custom chatbot built with NLP

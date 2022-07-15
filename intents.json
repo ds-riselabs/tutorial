@@ -1,0 +1,393 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hey, you!",
+        "Is anyone there?",
+        "Hi, what can you do?",
+        "Hello",
+        "What can you do?",
+        "Tell me what you can do",
+        "hallo",
+        "Good day",
+        "good morning",
+        "good afternoon",
+        "good evening"
+      ],
+      "responses": [
+        "Hello, thanks for visiting passnownow. I am here to answer your FAQs on passnownow." ,
+        "Hello, thanks for visiting passnownow. I am here to answer your queries and answers your FAQs on passnownow.",
+        "Hi there, thanks for visiting passnownow. I can provide answers to your queries and FAQs on the platform. Oya, chat with me!",
+        "Hi there, I am here to answer your queries and faqs on passnownow.", 
+        "Hi there, Welcome to passnownow! I am here to provide answers to your queries and FAQs on passnownow."
+      ]
+    },
+    {
+      "tag": "greet",
+      "patterns": [
+        "How are you",
+       "how are you now?"
+      ],
+      "responses": [
+        "Hello, thanks for visiting passnownow. I am doing fine. I am here to answers your FAQs on passnownow." ,
+        "Hello, thanks for visiting passnownow. I am good as you can see, thanks for asking, I am here to answers your FAQs on passnownow!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "See you", "Bye, Bye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "tell me your name", "who are you?", "your name, please"],
+      "responses": [
+        "My name is Sam. I can provide answers to queries and FAQS you may have about passnownow. Oya chat with me!",
+        "My name is Sam. I can provide answers to queries and faqs you may have about passnownow. Let's get started!",
+        "My name is Sam. I can provide answers to queries/FAQS you may have about passnownow. Chat with me, and let's get started!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "notes",
+      "patterns": [
+        "Can I download the class notes?",
+        "Can I print the class notes?",
+        "Can I copy the class notes?"
+      ],
+      "responses": [
+        "No. All class notes are designed for use on the website, and as such, they cannot be downloaded, printed, or copied.",
+        "No. All class notes are designed for use on the website, and as such, they cannot be  printed, copied, or downloaded.",
+        "No. All class notes are designed for use on the website, and as such, they cannot be  copied, printed, or downloaded."
+        
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "What is the next thing to do after making payment for a subscription plan?",
+        "What next thing will I do after I have made payment for a subscription plan?",
+        "What next for me to do after making payment for a subscription plan",
+        "What is the next thing after making payment for a subscription plan?"
+      ],
+      "responses": [
+        "Go on to correctly fill out the payment confirmation form on the link provided to you, after which your subscription would be processed.",
+        "Go and correctly fill out the payment confirmation form on the link provided to you, after which your subscription would be processed."
+      ]
+    },
+    {
+      "tag": "enroll",
+      "patterns": [
+        "Why am I requested to 'click to enroll' after paying for a subscription plan?",
+        "Why did I need to 'click to enroll' after paying for a subscription plan?"
+      ],
+      "responses": [
+        "The 'click to enroll' action is a one-time action that would be carried out by users who are making use of any set of class notes for the first time. Hence, if you are returning to use a class note that you have accessed before, then you would not be asked to 'click to enroll'.",  
+        "The 'click to enroll' action is a one-time action that would be carried out by users who are making use of any set of class notes for the first time. Hence, if you are returning to use a class note that you have accessed before, then you would not be asked to 'click to enroll' again."
+      ]
+    },
+    {
+      "tag": "current examination questions and answers",
+      "patterns": [
+        "Can I get access to current secondary school examination questions and answers?",
+        "Can I get access to the current secondary school examination questions and answers?",
+        "Did you provide access to current examination questions and answers?"
+      ],
+      "responses": [
+        "No please, Passnownow.com is a site that upholds integrity and firmly stands against all forms of examination malpractice, we do not provide answers to current examinations. Although, you can make use of our notes, practice exercises, and past questions to prepare for the examinations beforehand",  
+        "Not at all! Passnownow.com is a platform that upholds integrity and firmly stands against all forms of examination malpractice, we do not provide answers to current examinations. Although, you can make use of our notes, practice exercises, and past questions to prepare for the examinations ahead of your examinations"
+      ]
+    },
+    {
+      "tag": "subscription plan expire",
+      "patterns": [
+        "Will my plan expire even if I don't log in for the complete duration of time I paid for?",
+        "Will my subscription plan expire even if I don't log in for the complete duration of time I paid for?",
+        "Will my subscription expire even if I don't log in for the complete duration of time I paid for?"
+      ],
+      "responses": [
+        "Yes please, as soon as your account is activated for your paid ssubscription, your plan becomes active and it would expire once the plan's timeline elapses.",  
+        "Yes please, as soon as your account is activated for your plan, your subscription becomes active and it would expire once the plan's timeline elapses."
+      ]
+    },
+    {
+      "tag": "log in to swagric.com",
+      "patterns": [
+        "Do I have to log in every time I need to use swagric.com?",
+        "Is it a requirement that I must log in every time I need to use swagric.com?",
+        "Do I have to log in on every occassion I need to use swagric.com?"
+      ],
+      "responses": [
+        "You do not need to log in every time you need access if you are using the same device, however you will be required to log in again into your account if you happen to be using a different device. You can only access swagric.com from your account with only one device at once.",  
+        "You do not need to log in every time you need access if you are using the same device, however you will be required to log in again into your account if you happen to be using a different device. You will only have access to swagric.com from your account with only one device at a time."
+      ]
+    },
+    {
+      "tag": "multiple log in on swagric.com",
+      "patterns": [
+        "Can my friends and I log in with my login details at the same time on different devices?",
+        "Can I log in with my login details at the same time together with others on different devices?",
+        "Can my siblingss and I log in using my login details at the same time on different devices?"
+      ],
+      "responses": [
+        "No please, you and your friends/siblings can not be logged in at the same time with the same log-in details on different devices. You and your friends/siblings can however schedule the access and log in after each other or buy separate plans for easy access.",  
+        "No please, you and your others can not be logged in at the same time with the same log-in details on different devices. You and your friends/siblings can however schedule the access and log in after each other or buy separate plans for easy access."
+      ]
+    },
+    {
+      "tag": "volunteering to teach",
+      "patterns": [
+        "If I volunteer to teach, do I get a certificate for doing so?",
+        "If I volunteer to teach on the swagric.com, do I get a certificate for doing so?",
+        "If I volunteer to teach on the passnownow platform, do I get a certificate for doing so?"
+      ],
+      "responses": [
+        "Yes please, if you volunteer to teach on swagric.com, you will receive a one-time Certificate of Recognition from us.",  
+        "Yes please, if you volunteer to teach on passnownow platform, you will receive a one-time Certificate of Recognition."
+      ]
+    },
+    {
+      "tag": "trial period",
+      "patterns": [
+        "Is there a trial period for access to content on the platform before payment?",
+        "Is there a trial period for access to class notes on swagric.com before I make payment?",
+        "Is there a trial period for access to class notes on swagric.com before payment?"
+      ],
+      "responses": [
+        "On Passnownow.com, every registered user is allowed to view the first class note in each class for all subjects for FREE as a means of trial before payment is required.",  
+        "On Passnownow.com website, every registered user is allowed to view the first class note in each class for all subjects for FREE as a means of trial before payment is required."
+      ]
+    },
+    {
+      "tag": "mobile app",
+      "patterns": [
+        "Is there a mobile app for swagric.com?",
+        "Is there a mobile app version for swagric.com?",
+        "Is there a mobile application for swagric.com?"
+      ],
+      "responses": [
+        "The swagric.com mobile application is currently being developed and will be released soon.",  
+        "The swagric.com mobile app is currently being built and will be released soon."
+      ]
+    },
+    {
+      "tag": "mock exams and assessments",
+      "patterns": [
+        "Can I take mock examinations or mid-term assessments on the swagric.com platform?",
+        "Can I take mock examinations or mid-term assessments on the passnownow platform?",
+        "Can I take mock examinations or mid-term assessments on swagric.com?"
+      ],
+      "responses": [
+        "All our classwork notes have practice exercises and they can be used to prepare for your mock exams and mid-term assessments in secondary school.",  
+        "All our classwork notes have practice exercises and they can be used by learners to prepare for your mock examinations and mid-term assessments in secondary school."
+      ]
+    },
+    {
+      "tag": "summer holiday coaching",
+      "patterns": [
+        "Is there a provision for summer holiday online coaching on swagric.com?",
+        "Is there a provision for summer holiday online coaching on the passnownow platform?",
+        "Is there a provision for summer holiday online coaching on swagric.com platform?"
+      ],
+      "responses": [
+        "Yes, please. This began in 2018",  
+        "Yes, please. This began in 2018."
+      ]
+    },
+    {
+      "tag": "JAMB/WAEC past questions",
+      "patterns": [
+        "Can I get access to JAMB/WAEC past questions and answers on the swagric.com platform?",
+        "Can I get access to JAMB/WAEC past questions and answers on passnownow website?",
+        "Can I get access to JAMB/WAEC past questions and answers on swagric.com?",
+        "I want information about WAEC/JAMB past questions and answers on the platform"
+      ],
+      "responses": [
+        "You will have accessalong with all the classwork notes and content, you should be granted access to JAMB/WAEC past questions and answers as soon as you register and buy a plan.",  
+        "You can have access to all the past questions along with all the classwork notes, you should be granted access to JAMB/WAEC past questions and answers as soon as you register and buy a plan."
+      ]
+    },
+    {
+      "tag": "copy on passnownow",
+      "patterns": [
+        "Can I copy, save or download the class notes or other content on Passnownow.com?",
+        "Can I copy, save or download the class notes or other content on the passnownow website?",
+        "Will I be able to copy, save or download the class notes or other content on Passnownow.com?"
+      ],
+      "responses": [
+        "Please, you can't. This is strictly an ONLINE learning and content development platform. Like other progressive countries. Nigeria's Education must go beyond classrooms, chalk, and blackboard. We must grow along with the rest of the world. Our lifelong dream is to use disruptive innovation to lead a movement of personalized learning and distribute quality educational content for students and teachers across Nigeria. By this, we hope to be able to raise enrollment numbers and increase the pass rates in exams for underserved students while also working to improve instructional practice by training and empowering teachers.",  
+        "Please, you can't. Passnownow is strictly an ONLINE learning and content development platform. Like other progressive countries. Nigeria's Education must go beyond classrooms, chalk, and blackboard. We must grow along with the rest of the world. Our lifelong dream is to use disruptive innovation to lead a movement of personalized learning and distribute quality educational content for students and teachers across Nigeria. By this, we hope to be able to raise enrollment numbers and increase the pass rates in exams for underserved students while also working to improve instructional practice by training and empowering teachers."
+      ]
+    },
+    {
+      "tag": " changes and reviews",
+      "patterns": [
+        "Are there any changes and reviews to the content on Passnownow?",
+        "Are there any changes and reviews to the content on Passnownow over time?",
+        "Are there any changes and reviews to the contents on Passnownow on regular basis?"
+      ],
+      "responses": [
+        "Yes, all educational contents on Passnownow are reviewed and revised from time to time, so that they correspond with the curriculum requirements for secondary schools, as stipulated by the Nigerian Ministry of Education.",
+        "Yes, all educational contents are reviewed and revised from time to time, so that they correspond with the curriculum requirements for secondary schools, as stipulated by the Nigerian Ministry of Education."
+      ]
+    },
+    {
+      "tag": "subscription",
+      "patterns": [
+        "How do I know if my subscription has been activated?",
+        "How do I know if my subscription has been  successfully activated?"
+      ],
+      "responses": [
+        "All subscriptions are activated as soon as relevant payment and user information has been received by our system. Once a user's subscription is activated, such users would also get an email confirmation for the same.",
+        "Your subscriptions are activated as soon as relevant payment and user information has been received by our system. Once a user's subscription is activated, such users would also get an email confirmation for the same."
+      ]
+    },
+
+    {
+      "tag": "plans videos",
+      "patterns": [
+        "Are there different subscription plans for the video tutorials?",
+        "Are there different subscription plans for the video tutorials on passnownow?"
+      ],
+      "responses": [
+        "All subscription plans on passnownow covers the specified class notes, study questions, and video tutorials. Hence, there are no separate/different payments required for the video materials.",
+        "All subscription plan covers the specified class notes, study questions, and video tutorials. Hence, there are no separate/different payments required for the video materials."
+      ]
+    },
+    
+    {
+      "tag": "videos",
+      "patterns": [
+        "How do I access video tutorials on Passnownow?",
+        "How can I have access to video tutorials on Passnownow?",
+        "what about having access to video tutorials on passnownow?",
+        "Can I have access to videos tutorial on passnownow?",
+        "I need info about video tutorials on passnownow",
+        "I need infomation about video tutorials on the passnownow platform"
+      ],
+      "responses": [
+        "Video tutorials are accessible on the website on www.passnownow.com. Users would find the videos materials attached to relevant content/topics.",
+        "Passnownow video tutorials are accessible on our website on www.passnownow.com. You will find the videos materials attached to relevant content/topics."
+      ]
+    },
+    {
+      "tag": "activation after payment",
+      "patterns": [
+        "How long will it take before my account is activated after I have paid?",
+        "How long will it take you before you activated my account after I have made payment?",
+        "How long will it take before my account to be activated after I have made payment?"
+      ],
+      "responses": [
+        "If you pay using Paystack with your ATM card, you'll be able to start using the website immediately as your account will be activated at once but if you pay using the Paystack Bank Transfer or Bank Deposit/Transfer. It may take about 4hrs before you can access your notes because we have to first receive the payment alert from the bank and consider the network issues with the different banks before our technical staff activates your account from our back office for you. Please also note that you have to be fully registered on swagric.com for you to be able to use it at all. Even if you have paid via bank transfer and you are not registered, you will not be able to access the contents/lessons on the site.",
+        "If you pay via Paystack with your ATM card, you'll be able to start using the website immediately as your account will be activated at once. But if you pay using the Paystack Bank Transfer or Bank Deposit/Transfer. It may take about 4hrs before you can access your notes because we have to first receive the payment alert from the bank and consider the network issues with the different banks before our technical staff activates your account from our back office for you. Please also note that you have to be fully registered on swagric.com for you to be able to use it at all. Even if you have paid via bank transfer and you are not registered, you will not be able to access the contents/lessons on the platform."
+      ]
+    },
+    {
+      "tag": "access on swagric.com",
+      "patterns": [
+        "Once I buy a plan, do I have to pay for each subject, or do I gain access to all the contents and notes on swagric.com?",
+        "Once I buy a plan, do I have to pay for each subject/content on the platform, or do I gain access to all the contents and notes on swagric.com?",
+        "Once I buy a plan, do I have to pay for each content on passnownow, or do I gain access to all the contents and notes on swagric.com?"
+      ],
+      "responses": [
+        "Once you make payment for a plan on swagric.com, you will have full access to all the contents and notes available on swagric.com, till your plan elapses.",
+        "Once you make payment for a plan on swagric.com, you will be given full access to all the contents and notes available on swagric.com, till your plan elapses."
+      ]
+    },
+    {
+      "tag": "videos on each topic",
+      "patterns": [
+        "Are there videos that explain each topic?",
+        "Are there videos that explain each topic on the platform?",
+        "Are there video content that explain each topic?"
+      ],
+      "responses": [
+        "No please, this feature is not yet available on swagric.com but plans are underway to introduce video lessons so we hope to make this happen soon since our lifelong goal is to make educational content affordable, accessible, and available here in Nigeria.",
+        "No please, this feature is not yet available on the platform but plans are underway to introduce video lessons so we hope to make this happen soon since our lifelong goal is to make educational content affordable, accessible, and available here in Nigeria."
+      ]
+    },
+    {
+      "tag": "family plan for children",
+      "patterns": [
+        "Is there a family plan that all my children can use altogether at once?",
+        "Is there a family plan that all my children can use altogether at once on the platform?",
+        "Is there a family plan that all my children/wards can use altogether at once?"
+      ],
+      "responses": [
+        "No, please. All your children need to have separate accounts on the platform, buy different plans and log in separately on their devices to have access to the available content on swagric.com",
+        "No, please. All your children need to have separate accounts, buy different plans and log in separately on their devices to have access to the available content on swagric.com"
+      ]
+    },
+    {
+      "tag": "teachers plan",
+      "patterns": [
+        "Is there a plan available for only teachers, with already made lesson notes for teaching?",
+        "Is there a plan available for only teachers, with already made lesson notes for teaching on the platform?",
+        "Is there teachers only plan available with already made lesson notes for teaching?"
+      ],
+      "responses": [
+        "No, please",
+        "No, please."
+      ]
+    },
+    {
+      "tag": "parent/guardian on examination results",
+      "patterns": [
+        "As a Parent or Guardian, can my child/ward's examination results be sent to me from passnownow?",
+        "As a Parent/Guardian, can my child/ward's examination results be sent to me?",
+        "As a Parent or Guardian, can my child's or ward's examination results be sent to me?"
+      ],
+      "responses": [
+        "For now, your child/ward's examination results cannot be sent to you. Although we are working on this, at the moment, you can log into your child/ward's account using their login details to see their activities on the website and monitor their progress.",
+        "Currently, your child/ward's examination results taken on passnownow cannot be sent to you. Although we are working on this, at the moment, you can log into your child's or ward's account using their login details to see their activities on the platform and monitor their progress."
+      ]
+    },
+    {
+      "tag": "review and change",
+      "patterns": [
+        "How often are the notes and exercises here changed and reviewed?",
+        "How often are the notes and exercises on your website changed and reviewed?",
+        "How often are the notes and exercises on the platform changed and reviewed?"
+      ],
+      "responses": [
+        "The notes are reviewed and the exercises are changed as often as is required and they are duly created to suit the educational requirements approved syllabus provided by the Nigerian Ministry of Education.",
+        "The notes on our platform are reviewed and the exercises are changed as often as is required and they are duly created to suit the educational requirements approved syllabus provided by the Nigerian Ministry of Education."
+      ]
+    },
+    {
+      "tag": "content approved",
+      "patterns": [
+        "Is the content on swagric.com created in line with the syllabus, curriculum, and scheme of work approved by the federal ministry of education in Nigeria?",
+        "Is the content on swagric.com created in line with the syllabus, curriculum, and scheme of work approved by the federal ministry of education in Nigeria?",
+        "Is the content on swagric.com created in line with the syllabus, curriculum, and scheme of work approved by the federal ministry of education in Nigeria?"
+      ],
+      "responses": [
+        "Yes please, all our educational content on swagric.com is created in compliance with Government Approved Curriculum and syllabus.",
+        "Yes please, all our educational content on the platform is created in compliance with Government Approved Curriculum and syllabus."
+      ]
+    },
+    {
+      "tag": "email",
+      "patterns": [
+        "Will the class notes and materials be sent to my email?",
+        "Will I received the class notes and materials through my email?"
+      ],
+      "responses": [
+        "No. All our class notes and other study materials are fully accessible on the website only, once the user has an active subscription plan.",
+        "No. All our class notes and other study materials are fully accessible on the website only, once the user has an active subscription plan."
+      ]
+    }
+    
+  ]
+}
