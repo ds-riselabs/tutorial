@@ -25,7 +25,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Cynthia"
 
 def get_response(msg):
     sentence = tokenize(msg)
@@ -45,7 +45,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "Sorry, I do not have an answer to that, as I can only provide answers to FAQs on passnownow. For any other questions or queries, kindly contact our customer representative for assistance. Thank you."
+    return "Sorry, I do not have a definite answer to that, as I can only provide answers to FAQs on passnownow. For any other questions or queries, kindly contact our customer representative for assistance. Thank you."
 
 
 if __name__ == "__main__":
